@@ -12,7 +12,7 @@
             class="p-6 max-w-md w-48 rounded-l-lg border border-gray-500 shadow-md dark:bg-gray-700 dark:border-gray-700"
           >
             <h5
-              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-100 dark:text-white"
             >
               Revenue
             </h5>
@@ -26,7 +26,7 @@
             class="p-6 max-w-sm w-48 border border-gray-500 shadow-md dark:bg-gray-700 dark:border-gray-700"
           >
             <h5
-              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-100 dark:text-white"
             >
               Expenses
             </h5>
@@ -41,7 +41,7 @@
             class="p-6 max-w-sm w-48 border border-gray-500 shadow-md dark:bg-gray-700 dark:border-gray-700"
           >
             <h5
-              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-100 dark:text-white"
             >
               Debts
             </h5>
@@ -56,7 +56,7 @@
             class="p-6 max-w-sm w-48 rounded-r-lg border border-gray-500 shadow-md dark:bg-gray-700 dark:border-gray-700"
           >
             <h5
-              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              class="mb-2 text-2xl font-bold tracking-tight text-gray-100 dark:text-white"
             >
               Cash at hand
             </h5>

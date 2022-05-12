@@ -1,6 +1,8 @@
 <template>
   <div class="flex bg-gray-900">
-    <SideNav />
+    <div class="bg-gray-700 h-max">
+      <SideNav />
+    </div>
     <div class="flex flex-col w-5/6">
       <MainNav />
       <div class="mr-3">

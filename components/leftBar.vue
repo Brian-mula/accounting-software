@@ -66,7 +66,8 @@
         </div>
       </div>
     </div>
-    <div class="mt-3 bg-gray-700 rounded-lg">
+    <div class="mt-3 bg-gray-700 rounded-lg border shadow-md">
+      <!-- eslint-disable-next-line vue/singleline-html-element-content-newline -->
       <h3 class="p-4 text-gray-50 mt-2">Indicators</h3>
       <div class="relative overflow-x-auto shadow-md">
         <table class="w-full text-sm text-left text-gray-700 dark:text-gray-400">
@@ -81,27 +82,16 @@
             </tr>
           </thead>
           <tbody>
-            <tr class="bg-gray-700 border-b dark:bg-gray-700  text-gray-100 dark:border-gray-700">
-              <td class="px-6 py-4">2019</td>
-              <td class="px-6 py-4">35.5%</td>
-              <td class="px-6 py-4"><span class="las la-arrow-down"></span></td>
+            <tr v-for="data in indicatorData" :key="data.year" class="bg-gray-700 border-b dark:bg-gray-700  text-gray-100 dark:border-gray-700">
+              <td class="px-6 py-4">
+                {{ data.year }}</td>
+              <td class="px-6 py-4">
+                {{ data.debt }}</td>
+              <td class="px-6 py-4">
+                <span class="las la-arrow-down" />
+              </td>
             </tr>
             <!-- dummy data -->
-            <tr class="bg-gray-700 border-b dark:bg-gray-700  text-gray-100 dark:border-gray-700">
-              <td class="px-6 py-4">2019</td>
-              <td class="px-6 py-4">35.5%</td>
-              <td class="px-6 py-4"><span class="las la-arrow-down"></span></td>
-            </tr>
-            <tr class="bg-gray-700 border-b dark:bg-gray-700  text-gray-100 dark:border-gray-700">
-              <td class="px-6 py-4">2019</td>
-              <td class="px-6 py-4">35.5%</td>
-              <td class="px-6 py-4"><span class="las la-arrow-down"></span></td>
-            </tr>
-            <tr class="bg-gray-700 border-b dark:bg-gray-700  text-gray-100 dark:border-gray-700">
-              <td class="px-6 py-4">2019</td>
-              <td class="px-6 py-4">35.5%</td>
-              <td class="px-6 py-4"><span class="las la-arrow-down"></span></td>
-            </tr>
             <!-- dummy data -->
           </tbody>
         </table>
@@ -111,7 +101,14 @@
 </template>
 
 <script>
-export default {}
+import indicatorData from '~/dummydata/indicatorData'
+export default {
+  data () {
+    return {
+      indicatorData
+    }
+  }
+}
 </script>
 
 <style></style>
