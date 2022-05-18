@@ -18,6 +18,14 @@
             <span class="ml-3">Employees</span>
           </nuxt-link>
         </li>
+        <!-- dummy sidebar -->
+        <li>
+          <nuxt-link to="/sales/manageSales" class="flex items-center p-2 text-base font-normal text-gray-100 rounded-lg dark:text-white hover:bg-blue-900 dark:hover:bg-gray-700">
+            <span class="las la-history" />
+            <span class="ml-3">Manage Invoice</span>
+          </nuxt-link>
+        </li>
+        <!-- dummy sidebar -->
         <li>
           <nuxt-link to="/orderHistory" class="flex items-center p-2 text-base font-normal text-gray-100 rounded-lg dark:text-white hover:bg-blue-900 dark:hover:bg-gray-700">
             <span class="las la-history" />
