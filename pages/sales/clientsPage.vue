@@ -52,11 +52,11 @@
       </div>
       <div class="">
         <nuxt-link
-          to="/sales/newInvoice"
+          to="/sales/newClient"
           class="flex justify-center items-center bg-green-800 hover:bg-green-900 text-white font-bold py-2 px-4 border border-blue-700 rounded"
         >
           <span class="las la-plus-square p-3" />
-          <span>New Invoice</span>
+          <span>New Client</span>
         </nuxt-link>
       </div>
     </div>
@@ -88,7 +88,7 @@
                 class="block uppercase tracking-wide text-gray-100 text-xs font-bold mb-2"
                 for="grid-city"
               >
-                Invoice Number:
+                Name:
               </label>
               <input
                 id="grid-city"
@@ -145,26 +145,9 @@
             POS client #1
           </p>
         </div>
+
         <div class="">
-          <p class="text-white pb-2 pt-4 px-4 text-xs ">
-            Printed
-          </p>
-          <div class="flex">
-            <div class="text-white">
-              <span class="las la-clock" />
-            </div>
-            <div class="text-white ml-2">
-              16/5/2022 21:12
-            </div>
-          </div>
-        </div>
-        <div class="">
-          <p class="text-white pb-2 pt-4 px-4 text-xl">
-            Ksh.46,400
-          </p>
-          <span class="bg-red-500 text-white py-2 px-4 border border-red-100 rounded text-xs">
-            Unpaid
-          </span>
+          <p class="text-white pb-2 pt-4 px-4 text-xl las la-comment-dots" />
         </div>
       </div>
     </div>

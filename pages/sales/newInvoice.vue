@@ -16,7 +16,7 @@
       <div class="flex justify-between items-center">
         <div class="text-white">
           <div
-            class="block p-6 rounded-lg shadow-lg bg-gray-700 max-w-sm my-5 mx-3 w-96"
+            class="block p-6 rounded-lg shadow-lg bg-gray-600 max-w-sm my-5 mx-3 w-96"
           >
             <form>
               <div class="col-span-6 sm:col-span-3 form-group mb-6">
