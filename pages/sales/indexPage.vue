@@ -60,7 +60,9 @@
           <h3 class="text-lg text-white px-4 py-8">
             Invoices from 10/4/2022 to 10/5/2022
           </h3>
-          <InvoiceTemplate />
+          <div class="p-4">
+            <InvoiceTemplate />
+          </div>
         </div>
         <div class="w-2/5 bg-gray-700">
           <p class="text-white">

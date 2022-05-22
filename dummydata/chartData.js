@@ -40,6 +40,7 @@ export const planetChartData = {
           ticks: {
             beginAtZero: true,
             padding: 25
+
           }
         }
       ]
